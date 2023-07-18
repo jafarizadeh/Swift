@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    let student = ["name1", "name2", "name3"]
+    @State private var selectedStudent = "name1"
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView{
+            Form {
+                Picker("Select your student", selection:
+                        $selectedStudent){
+                    ForEach(student, id: \.self){
+                        Text($0)
+                    }
+                }
+            }
         }
-        .padding()
     }
 }
 
