@@ -9,9 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        LinearGradient(gradient: Gradient(colors: [.black, .white]), startPoint: .bottom, endPoint: .top)
+        Image(systemName: "tram")
+
+        }
     }
-}
+    
+    func executeDelete(){
+        print("Now deleting")
+    }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
