@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		91D70C222A69B4040009CF7C /* BetterRestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D70C212A69B4040009CF7C /* BetterRestApp.swift */; };
-		91D70C242A69B4040009CF7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D70C232A69B4040009CF7C /* ContentView.swift */; };
-		91D70C262A69B4050009CF7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D70C252A69B4050009CF7C /* Assets.xcassets */; };
-		91D70C292A69B4050009CF7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D70C282A69B4050009CF7C /* Preview Assets.xcassets */; };
+		914EC7D12A69D21700F33DCE /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EC7D02A69D21700F33DCE /* WeatherApp.swift */; };
+		914EC7D32A69D21700F33DCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EC7D22A69D21700F33DCE /* ContentView.swift */; };
+		914EC7D52A69D21800F33DCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914EC7D42A69D21800F33DCE /* Assets.xcassets */; };
+		914EC7D82A69D21800F33DCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914EC7D72A69D21800F33DCE /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		91D70C1E2A69B4040009CF7C /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		91D70C212A69B4040009CF7C /* BetterRestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestApp.swift; sourceTree = "<group>"; };
-		91D70C232A69B4040009CF7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		91D70C252A69B4050009CF7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		91D70C282A69B4050009CF7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		914EC7CD2A69D21700F33DCE /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		914EC7D02A69D21700F33DCE /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
+		914EC7D22A69D21700F33DCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		914EC7D42A69D21800F33DCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		914EC7D72A69D21800F33DCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		91D70C1B2A69B4040009CF7C /* Frameworks */ = {
+		914EC7CA2A69D21700F33DCE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		91D70C152A69B4040009CF7C = {
+		914EC7C42A69D21700F33DCE = {
 			isa = PBXGroup;
 			children = (
-				91D70C202A69B4040009CF7C /* BetterRest */,
-				91D70C1F2A69B4040009CF7C /* Products */,
+				914EC7CF2A69D21700F33DCE /* Weather */,
+				914EC7CE2A69D21700F33DCE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		91D70C1F2A69B4040009CF7C /* Products */ = {
+		914EC7CE2A69D21700F33DCE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				91D70C1E2A69B4040009CF7C /* BetterRest.app */,
+				914EC7CD2A69D21700F33DCE /* Weather.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		91D70C202A69B4040009CF7C /* BetterRest */ = {
+		914EC7CF2A69D21700F33DCE /* Weather */ = {
 			isa = PBXGroup;
 			children = (
-				91D70C212A69B4040009CF7C /* BetterRestApp.swift */,
-				91D70C232A69B4040009CF7C /* ContentView.swift */,
-				91D70C252A69B4050009CF7C /* Assets.xcassets */,
-				91D70C272A69B4050009CF7C /* Preview Content */,
+				914EC7D02A69D21700F33DCE /* WeatherApp.swift */,
+				914EC7D22A69D21700F33DCE /* ContentView.swift */,
+				914EC7D42A69D21800F33DCE /* Assets.xcassets */,
+				914EC7D62A69D21800F33DCE /* Preview Content */,
 			);
-			path = BetterRest;
+			path = Weather;
 			sourceTree = "<group>";
 		};
-		91D70C272A69B4050009CF7C /* Preview Content */ = {
+		914EC7D62A69D21800F33DCE /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				91D70C282A69B4050009CF7C /* Preview Assets.xcassets */,
+				914EC7D72A69D21800F33DCE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		91D70C1D2A69B4040009CF7C /* BetterRest */ = {
+		914EC7CC2A69D21700F33DCE /* Weather */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91D70C2C2A69B4050009CF7C /* Build configuration list for PBXNativeTarget "BetterRest" */;
+			buildConfigurationList = 914EC7DB2A69D21800F33DCE /* Build configuration list for PBXNativeTarget "Weather" */;
 			buildPhases = (
-				91D70C1A2A69B4040009CF7C /* Sources */,
-				91D70C1B2A69B4040009CF7C /* Frameworks */,
-				91D70C1C2A69B4040009CF7C /* Resources */,
+				914EC7C92A69D21700F33DCE /* Sources */,
+				914EC7CA2A69D21700F33DCE /* Frameworks */,
+				914EC7CB2A69D21700F33DCE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BetterRest;
-			productName = BetterRest;
-			productReference = 91D70C1E2A69B4040009CF7C /* BetterRest.app */;
+			name = Weather;
+			productName = Weather;
+			productReference = 914EC7CD2A69D21700F33DCE /* Weather.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		91D70C162A69B4040009CF7C /* Project object */ = {
+		914EC7C52A69D21700F33DCE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					91D70C1D2A69B4040009CF7C = {
+					914EC7CC2A69D21700F33DCE = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 91D70C192A69B4040009CF7C /* Build configuration list for PBXProject "BetterRest" */;
+			buildConfigurationList = 914EC7C82A69D21700F33DCE /* Build configuration list for PBXProject "Weather" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 91D70C152A69B4040009CF7C;
-			productRefGroup = 91D70C1F2A69B4040009CF7C /* Products */;
+			mainGroup = 914EC7C42A69D21700F33DCE;
+			productRefGroup = 914EC7CE2A69D21700F33DCE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				91D70C1D2A69B4040009CF7C /* BetterRest */,
+				914EC7CC2A69D21700F33DCE /* Weather */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		91D70C1C2A69B4040009CF7C /* Resources */ = {
+		914EC7CB2A69D21700F33DCE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91D70C292A69B4050009CF7C /* Preview Assets.xcassets in Resources */,
-				91D70C262A69B4050009CF7C /* Assets.xcassets in Resources */,
+				914EC7D82A69D21800F33DCE /* Preview Assets.xcassets in Resources */,
+				914EC7D52A69D21800F33DCE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		91D70C1A2A69B4040009CF7C /* Sources */ = {
+		914EC7C92A69D21700F33DCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91D70C242A69B4040009CF7C /* ContentView.swift in Sources */,
-				91D70C222A69B4040009CF7C /* BetterRestApp.swift in Sources */,
+				914EC7D32A69D21700F33DCE /* ContentView.swift in Sources */,
+				914EC7D12A69D21700F33DCE /* WeatherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		91D70C2A2A69B4050009CF7C /* Debug */ = {
+		914EC7D92A69D21800F33DCE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		91D70C2B2A69B4050009CF7C /* Release */ = {
+		914EC7DA2A69D21800F33DCE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,14 +259,14 @@
 			};
 			name = Release;
 		};
-		91D70C2D2A69B4050009CF7C /* Debug */ = {
+		914EC7DC2A69D21800F33DCE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BetterRest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Weather/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -279,7 +279,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Mehdi.BetterRest;
+				PRODUCT_BUNDLE_IDENTIFIER = Mehdi.Weather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -287,14 +287,14 @@
 			};
 			name = Debug;
 		};
-		91D70C2E2A69B4050009CF7C /* Release */ = {
+		914EC7DD2A69D21800F33DCE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BetterRest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Weather/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -307,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Mehdi.BetterRest;
+				PRODUCT_BUNDLE_IDENTIFIER = Mehdi.Weather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -318,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		91D70C192A69B4040009CF7C /* Build configuration list for PBXProject "BetterRest" */ = {
+		914EC7C82A69D21700F33DCE /* Build configuration list for PBXProject "Weather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91D70C2A2A69B4050009CF7C /* Debug */,
-				91D70C2B2A69B4050009CF7C /* Release */,
+				914EC7D92A69D21800F33DCE /* Debug */,
+				914EC7DA2A69D21800F33DCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91D70C2C2A69B4050009CF7C /* Build configuration list for PBXNativeTarget "BetterRest" */ = {
+		914EC7DB2A69D21800F33DCE /* Build configuration list for PBXNativeTarget "Weather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91D70C2D2A69B4050009CF7C /* Debug */,
-				91D70C2E2A69B4050009CF7C /* Release */,
+				914EC7DC2A69D21800F33DCE /* Debug */,
+				914EC7DD2A69D21800F33DCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 91D70C162A69B4040009CF7C /* Project object */;
+	rootObject = 914EC7C52A69D21700F33DCE /* Project object */;
 }

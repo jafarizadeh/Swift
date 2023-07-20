@@ -1,6 +1,6 @@
 //
-//  BetterRestApp.swift
-//  BetterRest
+//  WeatherApp.swift
+//  Weather
 //
 //  Created by Mehdi JAFARI ZADEH on 20/07/2023.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct BetterRestApp: App {
+struct WeatherApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
