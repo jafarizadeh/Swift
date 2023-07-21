@@ -14,6 +14,7 @@
 		91AB97532A6A846900E3ABE9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB97522A6A846900E3ABE9 /* Extensions.swift */; };
 		91AB97552A6A84B800E3ABE9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB97542A6A84B800E3ABE9 /* HomeView.swift */; };
 		91AB97572A6A8F9500E3ABE9 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB97562A6A8F9500E3ABE9 /* TabBar.swift */; };
+		91AB97592A6A9A0200E3ABE9 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB97582A6A9A0200E3ABE9 /* Shapes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		91AB97522A6A846900E3ABE9 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "../../../../SwiftUI Weather/Resources/Extensions.swift"; sourceTree = "<group>"; };
 		91AB97542A6A84B800E3ABE9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		91AB97562A6A8F9500E3ABE9 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		91AB97582A6A9A0200E3ABE9 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				91AB97522A6A846900E3ABE9 /* Extensions.swift */,
+				91AB97582A6A9A0200E3ABE9 /* Shapes.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				91AB97532A6A846900E3ABE9 /* Extensions.swift in Sources */,
 				914EC7ED2A6A7E3400F33DCE /* WeatherAppApp.swift in Sources */,
 				91AB97572A6A8F9500E3ABE9 /* TabBar.swift in Sources */,
+				91AB97592A6A9A0200E3ABE9 /* Shapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

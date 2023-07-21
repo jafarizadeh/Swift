@@ -9,37 +9,43 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        ZStack{
-            // MARK: Background color
-            Color.background
-                .ignoresSafeArea()
-            
-            // MARK: Bckground Image
-            Image ("Background")
-                .resizable()
-                .ignoresSafeArea()
-            
-            //MARK: House Image
-            Image("House")
-                .frame(maxHeight: .infinity, alignment: .top)
-                .padding(.top, 257)
-            
-            VStack(spacing: -10) {
-                Text("Montreal")
-                    .font(.largeTitle)
+        NavigationView {
+            ZStack{
+                // MARK: Background color
+                Color.background
+                    .ignoresSafeArea()
                 
-                VStack {
-
-                    Text(attributedString)
-
-                    Text("H:24°   L:18°")
-                        .font(.title3.weight(.semibold))
+                // MARK: Bckground Image
+                Image ("Background")
+                    .resizable()
+                    .ignoresSafeArea()
+                
+                //MARK: House Image
+                Image("House")
+                    .frame(maxHeight: .infinity, alignment: .top)
+                    .padding(.top, 257)
+                
+                VStack(spacing: -10) {
+                    Text("Montreal")
+                        .font(.largeTitle)
                     
+                    VStack {
+
+                        Text(attributedString)
+
+                        Text("H:24°   L:18°")
+                            .font(.title3.weight(.semibold))
+                        
+                    }
+                    
+                    Spacer()
                 }
+                .padding(.top, 51)
                 
-                Spacer()
+                // MARK: Tab Bar
+                TabBar(action: {})
             }
-            .padding(.top, 51)
+            .navigationBarHidden(true)
         }
     }
     
