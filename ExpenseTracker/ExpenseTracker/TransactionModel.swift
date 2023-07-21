@@ -26,9 +26,13 @@ struct Transaction: Identifiable {
         date.dateParsed()
     }
     
-    
-    enum TransactionType: String {
-        case debit = "debit"
-        case credit = "credit"
+    var signedAmount: Double {
+        return type == TransactionType.credit.rawValue ? amount : -amount
     }
 }
+    
+enum TransactionType: String {
+    case debit = "debit"
+    case credit = "credit"
+}
+
