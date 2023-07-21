@@ -6,8 +6,16 @@
 //
 
 import SwiftUI
+import BottomSheet
+
+enum BottomSheetPosition: CGFloat, CaseIterable{
+    case top = 0.83 // 702/844
+    case middle = 0.385 // 325/844
+}
 
 struct HomeView: View {
+    @State var bottomSheetPosition: BottomSheetPosition = .middle
+    
     var body: some View {
         NavigationView {
             ZStack{
@@ -43,6 +51,8 @@ struct HomeView: View {
                 .padding(.top, 51)
                 
                 // MARK: Tab Bar
+                BottomSheetV
+                
                 TabBar(action: {})
             }
             .navigationBarHidden(true)
