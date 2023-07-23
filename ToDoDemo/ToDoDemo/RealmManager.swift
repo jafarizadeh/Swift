@@ -10,33 +10,34 @@ import RealmSwift
 
 class RealmManager: ObservableObject {
     private(set) var localRealm: Realm?
-    @Published private(set) var tasks: [Task] = []
-    
+    @Published var tasks: [Task] = []
+
     init() {
         openRealm()
+        getTasks()
     }
-    
+
     func openRealm() {
         do {
             let config = Realm.Configuration(schemaVersion: 1)
-            
+
             Realm.Configuration.defaultConfiguration = config
-            
+
             localRealm = try Realm()
-            
         } catch {
-            print("Error opening Realm: \(error)")
+            print("Error opening Realm", error)
         }
     }
-    
+
     func addTask(taskTitle: String) {
         if let localRealm = localRealm {
             do {
                 try localRealm.write {
-                    let newTask = Task(value: ["title": taskTitle, "completed": false])
+                    let newTask = Task(value: ["title": taskTitle, "completed": false] as [String : Any])
+                   
                     localRealm.add(newTask)
                     getTasks()
-                    print("Added new Task to Realm: \(newTask)")
+                    print("Added new task to Realm!", newTask)
                 }
             } catch {
                 print("Error adding task to Realm: \(error)")
@@ -53,25 +54,24 @@ class RealmManager: ObservableObject {
             }
         }
     }
-    
+
     func updateTask(id: ObjectId, completed: Bool) {
         if let localRealm = localRealm {
             do {
                 let taskToUpdate = localRealm.objects(Task.self).filter(NSPredicate(format: "id == %@", id))
                 guard !taskToUpdate.isEmpty else { return }
-                
+
                 try localRealm.write {
                     taskToUpdate[0].completed = completed
                     getTasks()
                     print("Updated task with id \(id)! Completed status: \(completed)")
                 }
-                
             } catch {
                 print("Error updating task \(id) to Realm: \(error)")
             }
         }
     }
-    
+
     func deleteTask(id: ObjectId) {
         if let localRealm = localRealm {
             do {
@@ -83,10 +83,11 @@ class RealmManager: ObservableObject {
                     getTasks()
                     print("Deleted task with id \(id)")
                 }
-                
             } catch {
-                print("Error deleting rask \(id) from Realm: \(error)")
+                print("Error deleting task \(id) to Realm: \(error)")
             }
         }
     }
 }
+
+
