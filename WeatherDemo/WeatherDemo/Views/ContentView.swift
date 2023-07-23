@@ -31,6 +31,7 @@ struct ContentView: View {
             }
             else
             {
+                
                 if locationManager.isLoading {
                     LoadingView()
                 } else {
