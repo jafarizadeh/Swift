@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var authenticationManager = AuthenticationManager()
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            LoginView()
+                .frame(maxWidth: .infinity,
+                       maxHeight: .infinity)
+                .edgesIgnoringSafeArea(.all)
         }
-        .padding()
+        
     }
 }
 
