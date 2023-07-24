@@ -11,6 +11,7 @@
 		913050DD2A6EE220006D4974 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913050DC2A6EE220006D4974 /* ContentView.swift */; };
 		913050DF2A6EE222006D4974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 913050DE2A6EE222006D4974 /* Assets.xcassets */; };
 		913050E22A6EE222006D4974 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 913050E12A6EE222006D4974 /* Preview Assets.xcassets */; };
+		913050EA2A6EE3C0006D4974 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913050E92A6EE3C0006D4974 /* PrimaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		913050DC2A6EE220006D4974 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		913050DE2A6EE222006D4974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		913050E12A6EE222006D4974 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		913050E92A6EE3C0006D4974 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				913050DA2A6EE220006D4974 /* TriviaGameDemoApp.swift */,
-				913050DC2A6EE220006D4974 /* ContentView.swift */,
+				913050EB2A6EE4A9006D4974 /* Views */,
+				913050E82A6EE3A3006D4974 /* Components */,
 				913050DE2A6EE222006D4974 /* Assets.xcassets */,
 				913050E02A6EE222006D4974 /* Preview Content */,
 			);
@@ -65,6 +68,22 @@
 				913050E12A6EE222006D4974 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		913050E82A6EE3A3006D4974 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				913050E92A6EE3C0006D4974 /* PrimaryButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		913050EB2A6EE4A9006D4974 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				913050DC2A6EE220006D4974 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				913050EA2A6EE3C0006D4974 /* PrimaryButton.swift in Sources */,
 				913050DD2A6EE220006D4974 /* ContentView.swift in Sources */,
 				913050DB2A6EE220006D4974 /* TriviaGameDemoApp.swift in Sources */,
 			);
