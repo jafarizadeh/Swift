@@ -32,6 +32,8 @@ struct QuestionView: View {
             }
             
             PrimaryButton(text: "Next")
+            
+            Spacer()
         }
         .padding()
         .frame(maxWidth: .infinity,
@@ -39,6 +41,7 @@ struct QuestionView: View {
         .background(Color(red: 0.98,
                         green: 0.93,
                         blue:0.847))
+        .navigationBarHidden(true)
     }
 }
 
