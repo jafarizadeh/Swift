@@ -18,6 +18,7 @@ struct AnswerRow: View {
     var red = Color(red: 0.71,
                       green: 0.094,
                       blue: 0.1)
+    var selectColor = Color(hex: "40434e")
     
     var body: some View {
         HStack(spacing: 20) {
@@ -36,10 +37,10 @@ struct AnswerRow: View {
         .padding()
         .frame(maxWidth: .infinity,
                alignment: .leading)
-        .foregroundColor(isSelected ? Color("AccentColor") : .gray)
+        .foregroundColor(isSelected ? Color("AccentColor") : selectColor)
         .background(.white)
         .cornerRadius(10)
-        .shadow(color: isSelected ? (answer.isCorrect ? green : red) : .gray, radius: 5, x: 0.5, y: 0.5)
+        .shadow(color: isSelected ? (answer.isCorrect ? green : red) : selectColor, radius: 5, x: 0.5, y: 0.5)
         .onTapGesture {
             isSelected = true
         }

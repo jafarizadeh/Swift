@@ -25,7 +25,7 @@ struct QuestionView: View {
                 Text("MacOS is based on Linux.")
                     .font(.system(size: 20))
                     .bold()
-                    .foregroundColor(.gray)
+                    .foregroundColor(Color(hex: "#204b57"))
                 
                 AnswerRow(answer: Answer(text: "false", isCorrect: true))
                 AnswerRow(answer: Answer(text: "true", isCorrect: false))
