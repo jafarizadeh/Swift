@@ -37,6 +37,7 @@ class AuthenticationManager: ObservableObject {
                 if success {
                     DispatchQueue.main.async {
                         self.isAuthenticated = true
+                        print("isAuthenticated", self.isAuthenticated)
                     }
                 }
             } catch {
