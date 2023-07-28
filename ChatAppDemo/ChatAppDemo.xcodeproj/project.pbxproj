@@ -11,6 +11,7 @@
 		91B9B7242A73C0C700B037E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B9B7232A73C0C700B037E9 /* ContentView.swift */; };
 		91B9B7262A73C0C800B037E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91B9B7252A73C0C800B037E9 /* Assets.xcassets */; };
 		91B9B7292A73C0C800B037E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91B9B7282A73C0C800B037E9 /* Preview Assets.xcassets */; };
+		91B9B7312A73C27000B037E9 /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B9B7302A73C27000B037E9 /* TitleRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		91B9B7232A73C0C700B037E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		91B9B7252A73C0C800B037E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91B9B7282A73C0C800B037E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91B9B7302A73C27000B037E9 /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				91B9B7212A73C0C700B037E9 /* ChatAppDemoApp.swift */,
 				91B9B7232A73C0C700B037E9 /* ContentView.swift */,
+				91B9B72F2A73C25800B037E9 /* Components */,
 				91B9B7252A73C0C800B037E9 /* Assets.xcassets */,
 				91B9B7272A73C0C800B037E9 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				91B9B7282A73C0C800B037E9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91B9B72F2A73C25800B037E9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				91B9B7302A73C27000B037E9 /* TitleRow.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				91B9B7242A73C0C700B037E9 /* ContentView.swift in Sources */,
 				91B9B7222A73C0C700B037E9 /* ChatAppDemoApp.swift in Sources */,
+				91B9B7312A73C27000B037E9 /* TitleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
