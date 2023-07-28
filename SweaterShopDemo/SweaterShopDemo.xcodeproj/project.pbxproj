@@ -17,6 +17,7 @@
 		91F21BC52A73106700223597 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F21BC42A73106700223597 /* CartView.swift */; };
 		91F21BC72A7311C800223597 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F21BC62A7311C800223597 /* CartManager.swift */; };
 		91F21BC92A731AA800223597 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F21BC82A731AA800223597 /* ProductRow.swift */; };
+		91F21BCB2A73B78D00223597 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F21BCA2A73B78D00223597 /* PaymentButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		91F21BC42A73106700223597 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		91F21BC62A7311C800223597 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
 		91F21BC82A731AA800223597 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		91F21BCA2A73B78D00223597 /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				91F21BBF2A72FA7600223597 /* ProductCard.swift */,
 				91F21BC22A730E1E00223597 /* CartButton.swift */,
 				91F21BC82A731AA800223597 /* ProductRow.swift */,
+				91F21BCA2A73B78D00223597 /* PaymentButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91F21BCB2A73B78D00223597 /* PaymentButton.swift in Sources */,
 				91F21BC52A73106700223597 /* CartView.swift in Sources */,
 				91F21BB02A72F67B00223597 /* ContentView.swift in Sources */,
 				91F21BC72A7311C800223597 /* CartManager.swift in Sources */,
