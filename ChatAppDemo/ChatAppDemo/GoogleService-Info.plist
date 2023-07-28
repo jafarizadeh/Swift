@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>840161970126-kmic7hebi59eee9hv6bto1nd47hhqe7o.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.840161970126-kmic7hebi59eee9hv6bto1nd47hhqe7o</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBRFB-WjTMmMMoEwbg8XoDozYTg_qGbG9U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>840161970126</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Mehdi.ChatAppDemo</string>
+	<key>PROJECT_ID</key>
+	<string>chat-app-50dc5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chat-app-50dc5.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:840161970126:ios:362d4d6a30dc95b9044d9f</string>
+</dict>
+</plist>
