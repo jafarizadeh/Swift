@@ -15,6 +15,7 @@
 		91B9B7342A73DB3E00B037E9 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B9B7332A73DB3E00B037E9 /* Message.swift */; };
 		91B9B7362A73DBC100B037E9 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B9B7352A73DBC100B037E9 /* MessageBubble.swift */; };
 		91B9B7382A73E1C400B037E9 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B9B7372A73E1C400B037E9 /* Extension.swift */; };
+		91B9B73A2A73F8CC00B037E9 /* MessageField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B9B7392A73F8CC00B037E9 /* MessageField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		91B9B7332A73DB3E00B037E9 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		91B9B7352A73DBC100B037E9 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
 		91B9B7372A73E1C400B037E9 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		91B9B7392A73F8CC00B037E9 /* MessageField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				91B9B7302A73C27000B037E9 /* TitleRow.swift */,
 				91B9B7352A73DBC100B037E9 /* MessageBubble.swift */,
+				91B9B7392A73F8CC00B037E9 /* MessageField.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				91B9B7242A73C0C700B037E9 /* ContentView.swift in Sources */,
 				91B9B7342A73DB3E00B037E9 /* Message.swift in Sources */,
 				91B9B7362A73DBC100B037E9 /* MessageBubble.swift in Sources */,
+				91B9B73A2A73F8CC00B037E9 /* MessageField.swift in Sources */,
 				91B9B7382A73E1C400B037E9 /* Extension.swift in Sources */,
 				91B9B7222A73C0C700B037E9 /* ChatAppDemoApp.swift in Sources */,
 				91B9B7312A73C27000B037E9 /* TitleRow.swift in Sources */,
