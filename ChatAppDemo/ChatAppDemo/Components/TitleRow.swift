@@ -9,8 +9,8 @@ import SwiftUI
 
 struct TitleRow: View {
 
-    var image = Image("Hassan")
-    var name = "Hassan Eftekh"
+    var image = Image("Icon")
+    var name = "3 shotgun"
 
     var body: some View {
         HStack(spacing: 20) {
