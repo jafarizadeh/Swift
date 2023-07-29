@@ -40,7 +40,7 @@ struct MessageBubble: View {
             .onAppear {
                 currentColor = colorsArray.randomElement() ?? "Color1"
                 let randomX = CGFloat.random(in: textWidth / 2..<geometry.size.width - textWidth / 2)
-                let randomY = CGFloat.random(in: textHeight / 2..<geometry.size.height - textHeight / 2)
+                let randomY = CGFloat.random(in: (textHeight / 2) + 100..<geometry.size.height - textHeight / 2)
                 textPosition = CGPoint(x: randomX, y: randomY)
             }
             .onTapGesture {

@@ -10,9 +10,27 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            Color("Color1")
-            Text("Hello, world!")
+            VStack {
+                ZStack{
+                    Rectangle()
+                        .foregroundColor(.white)
+                        .frame(maxWidth: .infinity, minHeight: 80, maxHeight: 80)
+                        .ignoresSafeArea(.all)
+                        .shadow(color: .gray, radius: 60)
+                    
+                        TitleRow()
+                            .background(Color("Peach"))
+                }
+
+                Spacer()
+                
+            }
+            
+            .background(Color("background"))
+            
+            MessageBubble(message: Message(id: "12345", text: "hello kjg  kugyufgiuy iughiug lkhkug 99", timestamp: Date()))
         }
+        
 
     }
 }

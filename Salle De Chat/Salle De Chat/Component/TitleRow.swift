@@ -31,14 +31,17 @@ struct TitleRow: View {
                     .font(.caption)
                     .foregroundColor(.gray)
             }
+            .frame(maxWidth: .infinity, alignment: .leading)
             
-            Image(systemName: "phone.fill")
+            Image(systemName: "person.2.badge.gearshape")
                 .foregroundColor(.gray)
                 .padding(10)
                 .background(.white)
-                .cornerRadius(50)
+                .clipShape(Circle())
+                .shadow(radius: 3)
+            
         }
-        .padding()
+        .padding(20)
     }
 }
 
