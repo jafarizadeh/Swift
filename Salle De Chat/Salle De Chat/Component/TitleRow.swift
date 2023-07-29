@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct TitleRow: View {
+    @StateObject var messagesManager = MessagesManager()
+
 
     var image = Image("Icon")
     var name = "3 shotguns"
@@ -33,12 +35,17 @@ struct TitleRow: View {
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             
-            Image(systemName: "person.2.badge.gearshape")
-                .foregroundColor(.gray)
-                .padding(10)
-                .background(.white)
-                .clipShape(Circle())
-                .shadow(radius: 3)
+            Button() {
+                messagesManager.reset()
+            } label: {
+                Image(systemName: "clear")
+                    .foregroundColor(.gray)
+                    .padding(10)
+                    .background(.white)
+                    .clipShape(Circle())
+                    .shadow(radius: 3)
+            }
+            
             
         }
         .padding(20)

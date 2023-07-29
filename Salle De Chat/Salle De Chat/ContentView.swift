@@ -8,28 +8,50 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var messagesManager = MessagesManager()
     var body: some View {
         ZStack {
             VStack {
+                TitleRow()
+                    .background(Color("Peach"))
+                    .padding(.top, 40)
+//                Spacer()
                 ZStack{
                     Rectangle()
-                        .foregroundColor(.white)
-                        .frame(maxWidth: .infinity, minHeight: 80, maxHeight: 80)
+                        .foregroundColor(Color("background"))
+                        .frame(maxWidth: .infinity, minHeight: 700)
                         .ignoresSafeArea(.all)
-                        .shadow(color: .gray, radius: 60)
-                    
-                        TitleRow()
-                            .background(Color("Peach"))
+                        
                 }
-
-                Spacer()
+                .cornerRadius(30, corners: [.topLeft, .topRight])
+                .shadow(color: .brown, radius: 10)
                 
             }
             
-            .background(Color("background"))
             
-            MessageBubble(message: Message(id: "12345", text: "hello kjg  kugyufgiuy iughiug lkhkug 99", timestamp: Date()))
+            .background(Color("Peach"))
+            VStack {
+                ZStack {
+                    
+                    ForEach(messagesManager.messages, id: \.id) { message in
+                        MessageBubble(message: message)
+                        
+                    }
+                    
+                    
+                }
+                
+                
+                MessageField()
+                    .environmentObject(messagesManager)
+                    .padding(.bottom, 30)
+                    .padding(.top, 20)
+                    .shadow(color: .gray, radius: 2)
+                    
+            }
+            .padding()
         }
+        
         
 
     }

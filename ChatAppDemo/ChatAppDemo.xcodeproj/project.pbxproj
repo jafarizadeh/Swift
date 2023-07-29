@@ -71,12 +71,12 @@
 			children = (
 				91B9B7212A73C0C700B037E9 /* ChatAppDemoApp.swift */,
 				91B9B7232A73C0C700B037E9 /* ContentView.swift */,
+				91B9B7372A73E1C400B037E9 /* Extension.swift */,
 				91B9B73B2A73FF0B00B037E9 /* GoogleService-Info.plist */,
 				91B9B7322A73DB2400B037E9 /* Models */,
 				91B9B72F2A73C25800B037E9 /* Components */,
 				91B9B7252A73C0C800B037E9 /* Assets.xcassets */,
 				91B9B7272A73C0C800B037E9 /* Preview Content */,
-				91B9B7372A73E1C400B037E9 /* Extension.swift */,
 				91B9B7422A74022F00B037E9 /* MessagesManager.swift */,
 			);
 			path = ChatAppDemo;
