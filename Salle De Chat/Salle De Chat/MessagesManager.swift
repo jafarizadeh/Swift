@@ -63,6 +63,9 @@ class MessagesManager: ObservableObject {
     }
     
     func reset() {
+        for message in messages {
+            deleteMessage(id: message.id)
+        }
         messages = []
         lastMessageId = ""
     }

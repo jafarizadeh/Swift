@@ -14,7 +14,7 @@ struct MessageField: View {
     var body: some View {
         
         VStack {
-            Spacer()
+            
             HStack {
                 CustomTextField(placeholder: Text("Enter your message here"), text: $message)
                 
