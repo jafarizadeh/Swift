@@ -15,6 +15,7 @@
 		91641AA72A7699AE00560C7A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91641AA62A7699AE00560C7A /* HomeView.swift */; };
 		91641AA92A771ABD00560C7A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91641AA82A771ABD00560C7A /* TabBar.swift */; };
 		91641AAB2A771EBC00560C7A /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91641AAA2A771EBC00560C7A /* Shapes.swift */; };
+		91641AAE2A7723EC00560C7A /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 91641AAD2A7723EC00560C7A /* BottomSheet */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91641AAE2A7723EC00560C7A /* BottomSheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +153,9 @@
 			dependencies = (
 			);
 			name = Weather;
+			packageProductDependencies = (
+				91641AAD2A7723EC00560C7A /* BottomSheet */,
+			);
 			productName = Weather;
 			productReference = 91641A8C2A766B2A00560C7A /* Weather.app */;
 			productType = "com.apple.product-type.application";
@@ -179,6 +184,9 @@
 				Base,
 			);
 			mainGroup = 91641A832A766B2A00560C7A;
+			packageReferences = (
+				91641AAC2A7723EC00560C7A /* XCRemoteSwiftPackageReference "BottomSheet" */,
+			);
 			productRefGroup = 91641A8D2A766B2A00560C7A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -411,6 +419,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		91641AAC2A7723EC00560C7A /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Wouter125/BottomSheet";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		91641AAD2A7723EC00560C7A /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91641AAC2A7723EC00560C7A /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			productName = BottomSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 91641A842A766B2A00560C7A /* Project object */;
 }
