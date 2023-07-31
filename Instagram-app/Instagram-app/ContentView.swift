@@ -12,14 +12,17 @@ struct ContentView: View {
         VStack(spacing: 0.0) {
             Header()
             
-            Stories()
+            ScrollView(.vertical, showsIndicators: false){
+                Stories()
+                
+                Divider()
+                
+                Post()
+                
+                Post(image: "dog", description: "Almost 2 years old.")
+            }
             
-            Divider()
-            
-            
-            Post()
-            
-            Spacer()
+            TabBar()
         }
     }
 }
@@ -125,9 +128,10 @@ struct PostHeader: View {
 }
 
 struct PostContent: View {
+    var image: String = "profile"
     var body: some View {
         VStack(spacing: 0.0) {
-            Image("profile")
+            Image(image)
                 .resizable()
                 .frame(width: .infinity)
                 .aspectRatio(contentMode: .fit)
@@ -150,18 +154,21 @@ struct PostContent: View {
 }
 
 struct Post: View {
+    var image: String = "profile"
+    var description: String = "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 0.0) {
             PostHeader()
             
-            PostContent()
+            PostContent(image: image)
             
             Text("Liked by Meng To and others")
                 .font(.footnote)
                 .frame(width: .infinity)
                 .padding(.horizontal, 12)
             
-            Text("Lorem Ipsum is simply dummy text of the printing and typesetting industry.")
+            Text(description)
                 .font(.footnote)
                 .frame(width: .infinity)
                 .padding(.horizontal, 12)
@@ -190,6 +197,32 @@ struct Post: View {
             }
             .padding(.horizontal, 12)
             .padding(.vertical, 9)
+        }
+    }
+}
+
+struct TabBar: View {
+    var body: some View {
+        VStack(spacing: 0.0) {
+            Divider()
+            
+            HStack{
+                Image("home")
+                Spacer()
+                Image("search")
+                Spacer()
+                Image("reels")
+                Spacer()
+                Image("shop")
+                Spacer()
+                Image("profile")
+                    .resizable()
+                    .frame(width: 21, height: 21)
+                    .cornerRadius(50)
+            }
+            .padding(.horizontal, 25)
+            .padding(.top, 10)
+            
         }
     }
 }
