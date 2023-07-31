@@ -14,6 +14,7 @@ enum BottomSheetPosition: CGFloat, CaseIterable {
 }
 
 struct HomeView: View {
+    @Published var isPresented = false
     @State var bottomSheetPosition: BottomSheetPosition = .middle
     
     var body: some View {
@@ -53,11 +54,7 @@ struct HomeView: View {
                 }
                 .padding(.top, 51)
                 // MARK: Bottom Sheet
-                BottomSheetView(position: $bottomSheetPosition) {
-                    
-                } content: {
-                    
-                }
+                
                 
                 // MARK: Tab Bar
                 TabBar(action: {})
