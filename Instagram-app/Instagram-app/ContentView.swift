@@ -12,7 +12,7 @@ struct ContentView: View {
         VStack(spacing: 0.0) {
             Header()
             
-            Story()
+            Stories()
             
             Spacer()
         }
@@ -46,10 +46,13 @@ struct Header: View {
 }
 
 struct Story: View {
+    var image: String = "profile"
+    var name: String = "Mehdi"
+    
     var body: some View {
         VStack {
             VStack {
-                Image("profile")
+                Image(image)
                     .resizable()
                     .frame(width: 60, height: 60)
                     .cornerRadius(50)
@@ -67,8 +70,29 @@ struct Story: View {
                             lineWidth: 2.3)
                     .frame(width: 68, height: 68)
             )
-            Text("Mehdi")
+            .frame(width: 70, height: 70)
+            Text(name)
                 .font(.caption)
         }
+    }
+}
+
+struct Stories: View {
+    var body: some View {
+        ScrollView(.horizontal, showsIndicators: false) {
+            
+            HStack (spacing: (15)) {
+                Story()
+                Story(image: "profile2", name: "Meng To")
+                Story(image: "profile3", name: "Aksin")
+                Story(image: "profile4", name: "Steph")
+                Story(image: "profile5", name: "Sam")
+                Story(image: "profile6", name: "Dara")
+                Story(image: "profile7", name: "Sourany")
+                Story(image: "profile8", name: "Pom")
+            }
+            .padding(.horizontal, 8)
+        }
+        .padding(.vertical, 10)
     }
 }
