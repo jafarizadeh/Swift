@@ -18,6 +18,11 @@
 		9124AE7A2A77DDC100D73D8D /* PostContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9124AE792A77DDC100D73D8D /* PostContent.swift */; };
 		9124AE7C2A77DDD900D73D8D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9124AE7B2A77DDD900D73D8D /* Post.swift */; };
 		9124AE7F2A77DEBB00D73D8D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9124AE7E2A77DEBB00D73D8D /* HomeView.swift */; };
+		9124AE812A77E18000D73D8D /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9124AE802A77E18000D73D8D /* SearchView.swift */; };
+		9124AE832A77E1E400D73D8D /* SearchInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9124AE822A77E1E400D73D8D /* SearchInput.swift */; };
+		9124AE852A77E73C00D73D8D /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9124AE842A77E73C00D73D8D /* Label.swift */; };
+		9124AE872A77E7FE00D73D8D /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9124AE862A77E7FE00D73D8D /* Labels.swift */; };
+		9124AE892A77E92A00D73D8D /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9124AE882A77E92A00D73D8D /* Grid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +38,11 @@
 		9124AE792A77DDC100D73D8D /* PostContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostContent.swift; sourceTree = "<group>"; };
 		9124AE7B2A77DDD900D73D8D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		9124AE7E2A77DEBB00D73D8D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9124AE802A77E18000D73D8D /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		9124AE822A77E1E400D73D8D /* SearchInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInput.swift; sourceTree = "<group>"; };
+		9124AE842A77E73C00D73D8D /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		9124AE862A77E7FE00D73D8D /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
+		9124AE882A77E92A00D73D8D /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +102,10 @@
 				9124AE772A77DDB100D73D8D /* PostHeader.swift */,
 				9124AE792A77DDC100D73D8D /* PostContent.swift */,
 				9124AE7B2A77DDD900D73D8D /* Post.swift */,
+				9124AE822A77E1E400D73D8D /* SearchInput.swift */,
+				9124AE842A77E73C00D73D8D /* Label.swift */,
+				9124AE862A77E7FE00D73D8D /* Labels.swift */,
+				9124AE882A77E92A00D73D8D /* Grid.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -100,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				9124AE7E2A77DEBB00D73D8D /* HomeView.swift */,
+				9124AE802A77E18000D73D8D /* SearchView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -174,13 +189,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9124AE812A77E18000D73D8D /* SearchView.swift in Sources */,
 				9124AE7F2A77DEBB00D73D8D /* HomeView.swift in Sources */,
+				9124AE852A77E73C00D73D8D /* Label.swift in Sources */,
 				9124AE652A77B8BD00D73D8D /* ContentView.swift in Sources */,
 				9124AE722A77DD1D00D73D8D /* Header.swift in Sources */,
+				9124AE892A77E92A00D73D8D /* Grid.swift in Sources */,
+				9124AE872A77E7FE00D73D8D /* Labels.swift in Sources */,
 				9124AE7A2A77DDC100D73D8D /* PostContent.swift in Sources */,
 				9124AE7C2A77DDD900D73D8D /* Post.swift in Sources */,
 				9124AE782A77DDB100D73D8D /* PostHeader.swift in Sources */,
 				9124AE632A77B8BD00D73D8D /* Instagram_appApp.swift in Sources */,
+				9124AE832A77E1E400D73D8D /* SearchInput.swift in Sources */,
 				9124AE762A77DDA100D73D8D /* Stories.swift in Sources */,
 				9124AE742A77DD8F00D73D8D /* Story.swift in Sources */,
 			);
