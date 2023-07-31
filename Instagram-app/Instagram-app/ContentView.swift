@@ -16,9 +16,8 @@ struct ContentView: View {
             
             Divider()
             
-            PostHeader()
             
-            PostContent()
+            Post()
             
             Spacer()
         }
@@ -143,6 +142,51 @@ struct PostContent: View {
                 Spacer()
                 
                 Image("bookmark")
+            }
+            .padding(.horizontal, 12)
+            .padding(.vertical, 9)
+        }
+    }
+}
+
+struct Post: View {
+    var body: some View {
+        VStack(alignment: .leading, spacing: 0.0) {
+            PostHeader()
+            
+            PostContent()
+            
+            Text("Liked by Meng To and others")
+                .font(.footnote)
+                .frame(width: .infinity)
+                .padding(.horizontal, 12)
+            
+            Text("Lorem Ipsum is simply dummy text of the printing and typesetting industry.")
+                .font(.footnote)
+                .frame(width: .infinity)
+                .padding(.horizontal, 12)
+            
+            HStack{
+                HStack(spacing: 7.0){
+                    Image("profile")
+                        .resizable()
+                        .frame(width: 24, height: 24)
+                        .cornerRadius(50)
+                    
+                    Text("Add comment...")
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                }
+                
+                
+                Spacer()
+                
+                HStack {
+                    Text("😍")
+                    Text("😂")
+                    Image(systemName: "plus.circle")
+                        .foregroundColor(.secondary)
+                }
             }
             .padding(.horizontal, 12)
             .padding(.vertical, 9)
