@@ -14,6 +14,10 @@ struct ContentView: View {
             
             Stories()
             
+            Divider()
+            
+            PostHeader()
+            
             Spacer()
         }
     }
@@ -47,7 +51,7 @@ struct Header: View {
 
 struct Story: View {
     var image: String = "profile"
-    var name: String = "Mehdi"
+    var name: String = "Your Story"
     
     var body: some View {
         VStack {
@@ -94,5 +98,27 @@ struct Stories: View {
             .padding(.horizontal, 8)
         }
         .padding(.vertical, 10)
+    }
+}
+
+struct PostHeader: View {
+    var body: some View {
+        HStack {
+            HStack {
+                Image("profile")
+                    .resizable()
+                    .frame(width: 30, height: 30)
+                    .cornerRadius(50)
+                
+                Text("Mehdi")
+                    .font(.caption)
+                    .fontWeight(.bold)
+            }
+            Spacer()
+            
+            Image("more")
+        }
+        .padding(.vertical, 10)
+        .padding(.horizontal, 8)
     }
 }
