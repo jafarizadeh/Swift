@@ -18,6 +18,8 @@ struct ContentView: View {
             
             PostHeader()
             
+            PostContent()
+            
             Spacer()
         }
     }
@@ -120,5 +122,30 @@ struct PostHeader: View {
         }
         .padding(.vertical, 10)
         .padding(.horizontal, 8)
+    }
+}
+
+struct PostContent: View {
+    var body: some View {
+        VStack(spacing: 0.0) {
+            Image("profile")
+                .resizable()
+                .frame(width: .infinity)
+                .aspectRatio(contentMode: .fit)
+            
+            HStack {
+                HStack(spacing: 10.0) {
+                    Image("heart")
+                    Image("comment")
+                    Image("share")
+                }
+                
+                Spacer()
+                
+                Image("bookmark")
+            }
+            .padding(.horizontal, 12)
+            .padding(.vertical, 9)
+        }
     }
 }
