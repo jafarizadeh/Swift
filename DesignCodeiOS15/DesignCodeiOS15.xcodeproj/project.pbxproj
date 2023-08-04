@@ -14,6 +14,7 @@
 		91BAC3442A7D2049001138ED /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAC3432A7D2049001138ED /* Styles.swift */; };
 		91BAC3462A7D4482001138ED /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAC3452A7D4482001138ED /* AccountView.swift */; };
 		91BAC3482A7DA8FA001138ED /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAC3472A7DA8FA001138ED /* HexagonView.swift */; };
+		91BAC34C2A7DADC3001138ED /* BlobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAC34B2A7DADC3001138ED /* BlobView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		91BAC3432A7D2049001138ED /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		91BAC3452A7D4482001138ED /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		91BAC3472A7DA8FA001138ED /* HexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
+		91BAC34B2A7DADC3001138ED /* BlobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlobView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				91BAC3352A7D03F6001138ED /* DesignCodeiOS15App.swift */,
 				91BAC3372A7D03F6001138ED /* ContentView.swift */,
 				91BAC3452A7D4482001138ED /* AccountView.swift */,
+				91BAC34B2A7DADC3001138ED /* BlobView.swift */,
 				91BAC3472A7DA8FA001138ED /* HexagonView.swift */,
 				91BAC3432A7D2049001138ED /* Styles.swift */,
 				91BAC3392A7D03F7001138ED /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 				91BAC3462A7D4482001138ED /* AccountView.swift in Sources */,
 				91BAC3482A7DA8FA001138ED /* HexagonView.swift in Sources */,
 				91BAC3442A7D2049001138ED /* Styles.swift in Sources */,
+				91BAC34C2A7DADC3001138ED /* BlobView.swift in Sources */,
 				91BAC3382A7D03F6001138ED /* ContentView.swift in Sources */,
 				91BAC3362A7D03F6001138ED /* DesignCodeiOS15App.swift in Sources */,
 			);
