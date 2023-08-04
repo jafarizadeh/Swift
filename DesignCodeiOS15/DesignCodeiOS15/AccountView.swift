@@ -39,15 +39,50 @@ struct AccountView: View {
                 .padding()
                     
                 Section {
-                    Label("Setting", systemImage: "gear")
+                    NavigationLink{
+                        ContentView()
+                    } label: {
+                        Label("Setting", systemImage: "gear")
+                    }
                     
-                    Label("Billing", systemImage: "creditcard")
                     
-                    Label("Help", systemImage: "questionmark")
-                        .imageScale(.small)
+                    NavigationLink {
+                        Text("Billing")
+                    } label: {
+                        Label("Billing", systemImage: "creditcard")
+                    }
+                    
+                    
+                    NavigationLink {
+                        Text("Help")
+                    } label: {
+                        Label("Help", systemImage: "questionmark")
+                            .imageScale(.small)
+                    }
                 }
+                .accentColor(.primary)
                 .listRowSeparator(.hidden)
-
+                
+                Section {
+                    Link(destination: URL(string: "https://apple.com")!) {
+                        HStack {
+                            Label("Website", systemImage: "house")
+                            Spacer()
+                            Image(systemName: "link")
+                                .foregroundColor(.secondary)
+                        }
+                    }
+                    Link(destination: URL(string: "https://youtube.com")!) {
+                        HStack {
+                            Label("YouTube", systemImage: "tv")
+                            Spacer()
+                            Image(systemName: "link")
+                                .foregroundColor(.secondary)
+                        }
+                    }
+                }
+                .accentColor(.primary)
+                .listRowSeparator(.hidden)
             }
             .listStyle(.insetGrouped)
             .navigationTitle("Account")
