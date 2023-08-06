@@ -21,6 +21,8 @@
 		91BAC3592A7E971B001138ED /* FeaturedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAC3582A7E971B001138ED /* FeaturedItem.swift */; };
 		91BAC35B2A7E9D87001138ED /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAC35A2A7E9D87001138ED /* NavigationBar.swift */; };
 		91BAC35D2A7FA7F8001138ED /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAC35C2A7FA7F8001138ED /* PreferenceKeys.swift */; };
+		91BAC35F2A7FC83E001138ED /* AnimatableFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAC35E2A7FC83E001138ED /* AnimatableFontModifier.swift */; };
+		91BAC3612A7FD01A001138ED /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAC3602A7FD01A001138ED /* Course.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		91BAC3582A7E971B001138ED /* FeaturedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItem.swift; sourceTree = "<group>"; };
 		91BAC35A2A7E9D87001138ED /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		91BAC35C2A7FA7F8001138ED /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
+		91BAC35E2A7FC83E001138ED /* AnimatableFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFontModifier.swift; sourceTree = "<group>"; };
+		91BAC3602A7FD01A001138ED /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,7 @@
 			children = (
 				91BAC34D2A7E3F7D001138ED /* TabBar.swift */,
 				91BAC35C2A7FA7F8001138ED /* PreferenceKeys.swift */,
+				91BAC3602A7FD01A001138ED /* Course.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				91BAC3432A7D2049001138ED /* Styles.swift */,
+				91BAC35E2A7FC83E001138ED /* AnimatableFontModifier.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -215,10 +221,12 @@
 				91BAC35B2A7E9D87001138ED /* NavigationBar.swift in Sources */,
 				91BAC34C2A7DADC3001138ED /* BlobView.swift in Sources */,
 				91BAC3382A7D03F6001138ED /* ContentView.swift in Sources */,
+				91BAC3612A7FD01A001138ED /* Course.swift in Sources */,
 				91BAC3362A7D03F6001138ED /* DesignCodeiOS15App.swift in Sources */,
 				91BAC3592A7E971B001138ED /* FeaturedItem.swift in Sources */,
 				91BAC35D2A7FA7F8001138ED /* PreferenceKeys.swift in Sources */,
 				91BAC34E2A7E3F7D001138ED /* TabBar.swift in Sources */,
+				91BAC35F2A7FC83E001138ED /* AnimatableFontModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
