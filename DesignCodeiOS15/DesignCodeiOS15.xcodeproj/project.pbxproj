@@ -27,6 +27,7 @@
 		91BAC3652A80560D001138ED /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAC3642A80560D001138ED /* CourseItem.swift */; };
 		91BAC3672A805712001138ED /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAC3662A805712001138ED /* CourseView.swift */; };
 		91BAC3692A80EBAF001138ED /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAC3682A80EBAF001138ED /* Animations.swift */; };
+		91C4F40A2A810C73003393BD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C4F4092A810C73003393BD /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		91BAC3642A80560D001138ED /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
 		91BAC3662A805712001138ED /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
 		91BAC3682A80EBAF001138ED /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		91C4F4092A810C73003393BD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				91BAC34D2A7E3F7D001138ED /* TabBar.swift */,
 				91BAC35C2A7FA7F8001138ED /* PreferenceKeys.swift */,
 				91BAC3602A7FD01A001138ED /* Course.swift */,
+				91C4F4092A810C73003393BD /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				91BAC3592A7E971B001138ED /* FeaturedItem.swift in Sources */,
 				91BAC3692A80EBAF001138ED /* Animations.swift in Sources */,
 				91BAC35D2A7FA7F8001138ED /* PreferenceKeys.swift in Sources */,
+				91C4F40A2A810C73003393BD /* Model.swift in Sources */,
 				91BAC34E2A7E3F7D001138ED /* TabBar.swift in Sources */,
 				91BAC35F2A7FC83E001138ED /* AnimatableFontModifier.swift in Sources */,
 			);
