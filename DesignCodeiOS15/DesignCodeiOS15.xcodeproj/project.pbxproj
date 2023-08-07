@@ -23,6 +23,10 @@
 		91BAC35D2A7FA7F8001138ED /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAC35C2A7FA7F8001138ED /* PreferenceKeys.swift */; };
 		91BAC35F2A7FC83E001138ED /* AnimatableFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAC35E2A7FC83E001138ED /* AnimatableFontModifier.swift */; };
 		91BAC3612A7FD01A001138ED /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAC3602A7FD01A001138ED /* Course.swift */; };
+		91BAC3632A7FE7CC001138ED /* MatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAC3622A7FE7CC001138ED /* MatchView.swift */; };
+		91BAC3652A80560D001138ED /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAC3642A80560D001138ED /* CourseItem.swift */; };
+		91BAC3672A805712001138ED /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAC3662A805712001138ED /* CourseView.swift */; };
+		91BAC3692A80EBAF001138ED /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAC3682A80EBAF001138ED /* Animations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,10 @@
 		91BAC35C2A7FA7F8001138ED /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
 		91BAC35E2A7FC83E001138ED /* AnimatableFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFontModifier.swift; sourceTree = "<group>"; };
 		91BAC3602A7FD01A001138ED /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		91BAC3622A7FE7CC001138ED /* MatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchView.swift; sourceTree = "<group>"; };
+		91BAC3642A80560D001138ED /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
+		91BAC3662A805712001138ED /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		91BAC3682A80EBAF001138ED /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,8 @@
 			children = (
 				91BAC3512A7E8C21001138ED /* HomeView.swift */,
 				91BAC3452A7D4482001138ED /* AccountView.swift */,
+				91BAC3622A7FE7CC001138ED /* MatchView.swift */,
+				91BAC3662A805712001138ED /* CourseView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -120,6 +130,7 @@
 				91BAC3472A7DA8FA001138ED /* HexagonView.swift */,
 				91BAC34B2A7DADC3001138ED /* BlobView.swift */,
 				91BAC3582A7E971B001138ED /* FeaturedItem.swift */,
+				91BAC3642A80560D001138ED /* CourseItem.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -139,6 +150,7 @@
 			children = (
 				91BAC3432A7D2049001138ED /* Styles.swift */,
 				91BAC35E2A7FC83E001138ED /* AnimatableFontModifier.swift */,
+				91BAC3682A80EBAF001138ED /* Animations.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -214,6 +226,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				91BAC3522A7E8C21001138ED /* HomeView.swift in Sources */,
+				91BAC3632A7FE7CC001138ED /* MatchView.swift in Sources */,
+				91BAC3672A805712001138ED /* CourseView.swift in Sources */,
 				91BAC3462A7D4482001138ED /* AccountView.swift in Sources */,
 				91BAC3482A7DA8FA001138ED /* HexagonView.swift in Sources */,
 				91BAC3442A7D2049001138ED /* Styles.swift in Sources */,
@@ -223,7 +237,9 @@
 				91BAC3382A7D03F6001138ED /* ContentView.swift in Sources */,
 				91BAC3612A7FD01A001138ED /* Course.swift in Sources */,
 				91BAC3362A7D03F6001138ED /* DesignCodeiOS15App.swift in Sources */,
+				91BAC3652A80560D001138ED /* CourseItem.swift in Sources */,
 				91BAC3592A7E971B001138ED /* FeaturedItem.swift in Sources */,
+				91BAC3692A80EBAF001138ED /* Animations.swift in Sources */,
 				91BAC35D2A7FA7F8001138ED /* PreferenceKeys.swift in Sources */,
 				91BAC34E2A7E3F7D001138ED /* TabBar.swift in Sources */,
 				91BAC35F2A7FC83E001138ED /* AnimatableFontModifier.swift in Sources */,
