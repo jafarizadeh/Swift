@@ -34,6 +34,7 @@
 		91C6A0A72A8523F900B9C967 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C6A0A62A8523F900B9C967 /* AuthService.swift */; };
 		91C6A0AB2A85312000B9C967 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C6A0AA2A85312000B9C967 /* ContentViewModel.swift */; };
 		91C6A0AD2A8532AB00B9C967 /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C6A0AC2A8532AB00B9C967 /* InboxView.swift */; };
+		91C6A0AF2A8546CA00B9C967 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C6A0AE2A8546CA00B9C967 /* UserService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		91C6A0A62A8523F900B9C967 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		91C6A0AA2A85312000B9C967 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		91C6A0AC2A8532AB00B9C967 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		91C6A0AE2A8546CA00B9C967 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		91C6A0642A82EDF800B9C967 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				91C6A0AE2A8546CA00B9C967 /* UserService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 				91C6A0912A84F71700B9C967 /* ChatBubble.swift in Sources */,
 				91C6A08A2A84CE1000B9C967 /* CircularProfileImageView.swift in Sources */,
 				91C6A0532A82EDC800B9C967 /* MessengerApp.swift in Sources */,
+				91C6A0AF2A8546CA00B9C967 /* UserService.swift in Sources */,
 				91C6A0A32A85237900B9C967 /* LoginViewModel.swift in Sources */,
 				91C6A0752A83B78B00B9C967 /* ActiveNowView.swift in Sources */,
 				91C6A0852A83DDE200B9C967 /* ProfileViewModel.swift in Sources */,
